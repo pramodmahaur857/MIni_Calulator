@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="mainCon">
+        <div class="subCon">
+            <div class="activity" id="output"> </div>
+            <div class="firstLine">
+                <input type="button" class="btn" value="AC" style="background-color: darkred;" onclick="clearAll()">
+                <input type="button" class="btn" value="Del" style="background-color: darkred;" onclick="deleate()">
+               <input type="button" class="btn" value="." style="background-color:orangered;" onclick="submit(this)">
+                <input type="button" class="btn" id="divide" value="/" style="background-color:orangered;" onclick="submit(this)">
+            </div>
+            <div class="firstLine">
+                <input type="button" class="btn" value="7" onclick="submit(this)">
+                <input type="button" class="btn" value="8" onclick="submit(this)">
+               <input type="button" class="btn" value="9" onclick="submit(this)">
+                <input type="button" class="btn" id="mult" value="*" style="background-color:orangered;" onclick="submit(this)">
+            </div>
+            <div class="firstLine">
+                <input type="button" class="btn" value="4" onclick="submit(this)">
+                <input type="button" class="btn" value="5" onclick="submit(this)">
+               <input type="button" class="btn" value="6" onclick="submit(this)">
+                <input type="button" class="btn" id="min" value="-" style="background-color:orangered;" onclick="submit(this)">
+            </div>
+            <div class="firstLine">
+                <input type="button" class="btn" value="1" onclick="submit(this)">
+                <input type="button" class="btn" value="2" onclick="submit(this)">
+               <input type="button" class="btn" value="3" onclick="submit(this)">
+                <input type="button" class="btn" id="plus" value="+" style="background-color:orangered;"  onclick="submit(this)">
+            </div>
+            <div class="firstLine">
+                <input type="button" class="btn" value="00" onclick="submit(this)">
+                <input type="button" class="btn" value="0" onclick="submit(this)">
+               <input type="button" class="btn" value="=" onclick="cumpute(this)" style="width: 120px; background-color: green;">
+            </div>
+        </div>
+    </div> 
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.mainCon{
+    width: 100%;
+    height:100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subCon{
+    width:22%;
+    background-color: blueviolet;
+    /* height: 80vh; */
+    border-radius: 15px;
+    outline: 3px solid black;
+    padding: 1% 0% 0% .6%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+
+}
+.activity{
+    width: 90%;
+    height: 5vh;
+    padding: 6% 6% 0% 0%;
+    background-color:#ffff;
+    border-radius: 10px;
+    margin: 2px 0px 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    background-color: lightskyblue;
+}
+.firstLine{
+    width: 90%;
+    padding: 2%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    padding:2%;
+    width:60px;
+    height: 60px;
+    margin: 1.5%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(121, 129, 121);
+    color: beige;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 4px black;
+
+}
+@media screen and (max-width:800px) {
+    .subCon{
+        width: 95%;
+    }
+}
